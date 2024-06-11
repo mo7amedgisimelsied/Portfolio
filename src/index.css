@@ -365,7 +365,7 @@ p{
 /* //////////////////////////////////////// */
 .contact-container {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: start;
   gap: 2%;
 }
@@ -422,7 +422,7 @@ display: flex;
 flex-direction: column;
 }
 
-.contact--links .text, .contact--links .text-2 h3, .contact--links .text-2 p, .contact--links svg {
+.text,  .text-2 h3, .text-2 p, .contact--links svg {
   margin: 10px 0;
 }
 

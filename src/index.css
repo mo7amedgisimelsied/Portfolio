@@ -2,7 +2,7 @@
 :root {
   font-family: Calibri, sans-serif;
   
-  line-height: 1.9;
+  /* line-height: 1.9; */
 
   scroll-behavior: smooth;
 
@@ -48,7 +48,7 @@ h2{
 }
 
 section{
-  min-height: 100vh;
+  /* min-height: 100vh; */
   text-align: center;
 }
 
@@ -59,9 +59,6 @@ footer{
   text-align: center;
   background-color: var(--footer);
   padding: 3% 0;
-}
-footer p{
-  margin: 0 20%;
 }
 
 p{
@@ -316,7 +313,7 @@ p{
   text-align: left;
 }
 .project > img{
-  border-radius: 20px;
+  border-radius: 1rem;
 }
 
 

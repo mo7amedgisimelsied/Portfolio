@@ -43,9 +43,11 @@
     }
     h3{
       line-height: 2.3rem;
+      font-size: 1.5rem;
     }
     h2{
       line-height: 3rem;
+      font-size: 1.5rem;
     }
     
   }
@@ -93,8 +95,9 @@
       width: 100%;
     }
     .project--info > h3{
-      font-size: 40px;
-      margin: 0;
+      /* font-size: 40px; */
+      /* font-size: 1rem; */
+      /* margin: 0; */
     }
     .project--info > button{
       margin-bottom: 1rem;
@@ -121,7 +124,9 @@
     .contact-form, .contact-links{
       width: 50%;
     }
-
+    h2{
+      font-size: 2.5rem;
+    }
 
     /* ///////////////////// */
     .projects--container{
@@ -136,8 +141,8 @@
       width: 50%;
     }
     .project--info > h3{
-      font-size: 40px;
-      margin: 0;
+      /* font-size: 40px; */
+      /* margin: 0; */
     }
     /* ///////////////// */
     .banner > p{

@@ -1,8 +1,7 @@
-
 :root {
   font-family: Calibri, sans-serif;
   
-  /* line-height: 1.9; */
+  line-height: 1.5;
 
   scroll-behavior: smooth;
 
@@ -422,7 +421,9 @@ flex-direction: column;
 .text,  .text-2 h3, .text-2 p, .contact--links svg {
   margin: 10px 0;
 }
-
+h3{
+  margin: 0.5rem 0 0 0;
+}
 .phone, .email{
   display: flex;
   align-items: center;

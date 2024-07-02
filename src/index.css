@@ -157,14 +157,14 @@ p{
   border-radius: 15px;
   padding: 1rem 0.8rem;
   text-align: left;
-  min-width: calc(100% / 3);
+  /* min-width: calc(100% / 3); */
   transition: 0.5s;
   cursor: pointer;
 }
 
 .cards--container{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
   margin: 0 15%;
   gap: 15px;
 }

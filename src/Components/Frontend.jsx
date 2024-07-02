@@ -1,4 +1,6 @@
 import banner from "../assets/Group 50.png";
+import quizzati from "../assets/Quizzati.png";
+import mashaheer from "../assets/mashaheer.png";
 function Frontend() {
   return (
     <section style={{ marginTop: "5rem" }}>
@@ -17,7 +19,7 @@ function Frontend() {
 
       <div className="projects--container">
         <div className="project">
-          <img src="https://picsum.photos/256/144" data-aos="fade-right" />
+          <img src={quizzati} data-aos="fade-right" />
           <div className="project--info" data-aos="fade-left">
             <h3>Quizzati</h3>
             <p>
@@ -41,7 +43,7 @@ function Frontend() {
             </p>
             <button className="btn--green">Show Project</button>
           </div>
-          <img src="https://picsum.photos/256/144" data-aos="fade-left" />
+          <img src={mashaheer} data-aos="fade-left" />
         </div>
 
         <div className="project">

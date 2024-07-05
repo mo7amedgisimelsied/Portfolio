@@ -35,9 +35,9 @@ function Footer() {
         </svg>
       </div>
       <p className="copyright">
-        All website rights reserved by Los Pollos Hermanos. For any questions
-        Reach out to us at mezoscreation@gmail.com.And foor Legal matters
-        Contact Saul Goodman's office.
+        © 2024 Mohamed Gisimelsied. All rights reserved.
+        <br />
+        Privacy Policy | Terms of Service
       </p>
     </footer>
   );

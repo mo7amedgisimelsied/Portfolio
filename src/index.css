@@ -9,8 +9,8 @@
   --my-blue: #2B64F9;
   --my-purple: #786BF7;
   --my-dark: #0A1119;
-  --my-light: rgb(250, 255, 209);
-  --footer: #1A2A3A;
+  --my-light: #fafbcc;
+  --footer: black;
   color: var(--my-light);
   fill: var(--my-light);
   background-color: var(--my-dark);
@@ -100,6 +100,7 @@ p{
   justify-content: center;
   align-items: center;
   height: 100vh;
+  fill: var(--my-dark);
 }
 
 .header{
@@ -111,7 +112,7 @@ p{
               radial-gradient(100% 150% at 0% 0%, #FFF500 0%, #51D500 100%);
   background-blend-mode: overlay, color-dodge, overlay, overlay, difference, normal; */
   /* background-image: url("./assets/Group\ 50.png"); */
-
+color: var(--my-dark);
 }
 
 
@@ -320,10 +321,13 @@ p{
 
 
 .poster--container{
-  padding: 0 10%;
+  padding: 2% 10%;
+  background-color: var(--my-light);
+  color: var(--my-dark);
 }
-.poster--container > h2{
-  margin: 10% 0;
+.poster--container > div > h2{
+  margin-bottom: 5%;
+  margin-top: 0;
 }
 .posters--list{
   display: grid;

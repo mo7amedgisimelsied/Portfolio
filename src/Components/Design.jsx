@@ -11,7 +11,7 @@ function Design() {
   const imgUrl = [one, two, three, four, five, six, seven, eight, nine];
 
   return (
-    <section className="poster--container" data-aos="fade-up">
+    <section className="poster--container">
       <h2>Social Media Poster Design</h2>
       <div className="posters--list">
         {imgUrl.map((imgurl) => (

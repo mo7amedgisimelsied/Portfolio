@@ -1,6 +1,7 @@
 import banner from "../assets/Group 50.png";
 import quizzati from "../assets/Quizzati.png";
 import mashaheer from "../assets/mashaheer.png";
+import pollos from "../assets/pollos.png";
 function Frontend() {
   return (
     <section style={{ marginTop: "5rem" }}>
@@ -48,7 +49,7 @@ function Frontend() {
         </div>
 
         <div className="project">
-          <img src="https://picsum.photos/256/144" data-aos="fade-right" />
+          <img src={pollos} data-aos="fade-right" />
           <div className="project--info" data-aos="fade-left">
             <h3>Los Pollos Hermanos Website</h3>
             <p>

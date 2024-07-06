@@ -1,4 +1,8 @@
 @media screen and (max-width: 768px){
+
+  .hero {
+background-color: #fafbcc;
+  }
     .hero p{
       padding: 0;
     }
